@@ -1,0 +1,6 @@
+framework module Pods_UberLocationSearchTests {
+  umbrella header "Pods-UberLocationSearchTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

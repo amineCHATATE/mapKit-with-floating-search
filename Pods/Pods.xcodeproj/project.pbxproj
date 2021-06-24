@@ -1,0 +1,1026 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0235661CEC757F944072D480575DA609 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		06B6BB317009BE430DA68E268C9721F1 /* Pods-UberLocationSearch-UberLocationSearchUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C7FCF8D3A6A62704B81B94CC5C4A52E /* Pods-UberLocationSearch-UberLocationSearchUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08410B9ABE321F69F168ADD0D3B5A091 /* LayoutReferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3278E2993231B4A02C583671399A339A /* LayoutReferences.swift */; };
+		0B55579E12BC6F56690B254B47CA0828 /* Pods-UberLocationSearchTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FBAA80A7EFB5DE7FF61AF25051B8D0FB /* Pods-UberLocationSearchTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18B6F0B46E1D366C52FCF606F5E27346 /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E92F6FE9378BFCBC3F28EBE8349BF05 /* Controller.swift */; };
+		24824D1F8342EF6B11A538FEEA96A0C8 /* Behavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A3A7127FF8EACD9CCF85350164C076 /* Behavior.swift */; };
+		2C766BEF73FBADA18BFD4A7FCD9A3E5B /* Transitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1236EDBC7D7123FC45DF96A9D89B07B /* Transitioning.swift */; };
+		321BB1ACE5DFE681981F737CF3CD4F56 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EC45A84AFA80C6A73722718C940CC34 /* Logger.swift */; };
+		374675ED58E29C2F4BE497CEECFD9C5A /* BackdropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C16ADC81204BAD0390DF62D0B4F50B12 /* BackdropView.swift */; };
+		385653B15406A322F6634144E1472A9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		450E4A93BA5047608C308BE09B93A089 /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A772B8D661B10EA355CD7DC6492DD /* State.swift */; };
+		48BD42DF42D8097CDA5A1D5C64237923 /* Pods-UberLocationSearch-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F924CD5A80923690C55272CB0ECCE994 /* Pods-UberLocationSearch-dummy.m */; };
+		5319D549D1C188017CDEF66020596C64 /* Pods-UberLocationSearch-UberLocationSearchUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3B641A674931E429918A06BAB579DE /* Pods-UberLocationSearch-UberLocationSearchUITests-dummy.m */; };
+		594272573E6B956E3E06FCA943EFB0BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */; };
+		5973910AB6449405849068E265FB2582 /* PassthroughView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D193C1F05ECD9611A700D98FEAE81D70 /* PassthroughView.swift */; };
+		5BEC5CA8E33A61D2D83A113A57EA8DD7 /* FloatingPanel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7B409C12B5468DBBE1DD6B138AEABC /* FloatingPanel-dummy.m */; };
+		5F2ED51A87D08A8D3F9EEAC6F9B613C6 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638C8A22D14A26717A42859C3FA67AFC /* Extensions.swift */; };
+		66C9CFCCE0ED0D5448F25EECFE7D0863 /* Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = A411D9EC110B330227C9445607840A3A /* Layout.swift */; };
+		7A24217F05E42AF57A018C8671441F51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		937CF76437D5F425D4DF0D037568D8E4 /* SurfaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF356E30B82F13B1E5D5C8639995A67 /* SurfaceView.swift */; };
+		A5A6985EF0A21257C2419A0E82ACD988 /* LayoutAnchoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63EEF2C9C3461C7EEA391FE37374E119 /* LayoutAnchoring.swift */; };
+		A9068BB0EFD1284FF8D12B245AC62FD6 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFE017331146938DFBA9773E0F2DAD7 /* Core.swift */; };
+		AC673B5B3649D4D2C612634F34195F22 /* GrabberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C3D56C6901F4AC17B802728E3181D58 /* GrabberView.swift */; };
+		CCD266D5B4BE3FCAB0725567579D29F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */; };
+		D2AE8B96364AB26782B3A6B996618F46 /* FloatingPanel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4AD94CC0DB8AD52AAB70960E45D950F3 /* FloatingPanel-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC6E15C159889972758D4DC115CA733C /* Pods-UberLocationSearch-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BAE07952C059DD01FCD6CE5498ABC4D /* Pods-UberLocationSearch-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4DE63F14B208B100A6256AC3F68255 /* Position.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0969ADC9248A51A3D2D0657F8615115B /* Position.swift */; };
+		FCF2B13A18973FE56EF40B25FCCC2906 /* Pods-UberLocationSearchTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 606F069D5468AB7DB83E2043488C58FC /* Pods-UberLocationSearchTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		29E70CD07655792F9FFEA8CFA3068D1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4874E7E655CEB4C01E4572AD903AEA21;
+			remoteInfo = FloatingPanel;
+		};
+		5A4CB41B2D13306F7D2D0D7CE436D438 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4874E7E655CEB4C01E4572AD903AEA21;
+			remoteInfo = FloatingPanel;
+		};
+		FD355479611C36AE429B0380CE89F054 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52E09E2627ACE0B60853F353FBB38CAA;
+			remoteInfo = "Pods-UberLocationSearch";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04A3A7127FF8EACD9CCF85350164C076 /* Behavior.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Behavior.swift; path = Sources/Behavior.swift; sourceTree = "<group>"; };
+		0969ADC9248A51A3D2D0657F8615115B /* Position.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Position.swift; path = Sources/Position.swift; sourceTree = "<group>"; };
+		14E25B32F1E0CFCDBB04D5FECB551AD6 /* Pods-UberLocationSearch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberLocationSearch.release.xcconfig"; sourceTree = "<group>"; };
+		247FDE1F68E6D2C16CC67031C39B7892 /* FloatingPanel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingPanel.debug.xcconfig; sourceTree = "<group>"; };
+		2BAE07952C059DD01FCD6CE5498ABC4D /* Pods-UberLocationSearch-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberLocationSearch-umbrella.h"; sourceTree = "<group>"; };
+		2C7E14B1A97768A7474185868A71A51B /* Pods-UberLocationSearch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberLocationSearch.debug.xcconfig"; sourceTree = "<group>"; };
+		2EC45A84AFA80C6A73722718C940CC34 /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = Sources/Logger.swift; sourceTree = "<group>"; };
+		3278E2993231B4A02C583671399A339A /* LayoutReferences.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutReferences.swift; path = Sources/LayoutReferences.swift; sourceTree = "<group>"; };
+		36FEB299AF09F61D8796EFF3418C5C8E /* FloatingPanel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FloatingPanel.release.xcconfig; sourceTree = "<group>"; };
+		410513E180B1C51B438A67FF99D6D9BE /* Pods-UberLocationSearch-UberLocationSearchUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberLocationSearch-UberLocationSearchUITests.modulemap"; sourceTree = "<group>"; };
+		476A21EE05C5CBF682E7DB4943145CE1 /* FloatingPanel-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FloatingPanel-Info.plist"; sourceTree = "<group>"; };
+		4AD94CC0DB8AD52AAB70960E45D950F3 /* FloatingPanel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingPanel-umbrella.h"; sourceTree = "<group>"; };
+		4C3D56C6901F4AC17B802728E3181D58 /* GrabberView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GrabberView.swift; path = Sources/GrabberView.swift; sourceTree = "<group>"; };
+		4C7FCF8D3A6A62704B81B94CC5C4A52E /* Pods-UberLocationSearch-UberLocationSearchUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberLocationSearch-UberLocationSearchUITests-umbrella.h"; sourceTree = "<group>"; };
+		4DBBA05090F77159CBB20A45ED5CC277 /* FloatingPanel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FloatingPanel-prefix.pch"; sourceTree = "<group>"; };
+		4E92F6FE9378BFCBC3F28EBE8349BF05 /* Controller.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Controller.swift; path = Sources/Controller.swift; sourceTree = "<group>"; };
+		4F17DE651C7964795D6309AF5F444385 /* Pods-UberLocationSearch-UberLocationSearchUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberLocationSearch-UberLocationSearchUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4F3B641A674931E429918A06BAB579DE /* Pods-UberLocationSearch-UberLocationSearchUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberLocationSearch-UberLocationSearchUITests-dummy.m"; sourceTree = "<group>"; };
+		4FFE017331146938DFBA9773E0F2DAD7 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = Sources/Core.swift; sourceTree = "<group>"; };
+		5A7A772B8D661B10EA355CD7DC6492DD /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		606F069D5468AB7DB83E2043488C58FC /* Pods-UberLocationSearchTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberLocationSearchTests-dummy.m"; sourceTree = "<group>"; };
+		638C8A22D14A26717A42859C3FA67AFC /* Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Extensions.swift; path = Sources/Extensions.swift; sourceTree = "<group>"; };
+		63EEF2C9C3461C7EEA391FE37374E119 /* LayoutAnchoring.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LayoutAnchoring.swift; path = Sources/LayoutAnchoring.swift; sourceTree = "<group>"; };
+		6B1BF931B433A0E0D806D30565C4698B /* Pods-UberLocationSearchTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberLocationSearchTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6BF356E30B82F13B1E5D5C8639995A67 /* SurfaceView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SurfaceView.swift; path = Sources/SurfaceView.swift; sourceTree = "<group>"; };
+		6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FloatingPanel.framework; path = FloatingPanel.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A7B409C12B5468DBBE1DD6B138AEABC /* FloatingPanel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FloatingPanel-dummy.m"; sourceTree = "<group>"; };
+		7F24182477F732A24FD160DD03216047 /* Pods-UberLocationSearch-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberLocationSearch-Info.plist"; sourceTree = "<group>"; };
+		896C68431E19D930A9AD428418A8B587 /* Pods-UberLocationSearch-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberLocationSearch-frameworks.sh"; sourceTree = "<group>"; };
+		8DF736AFD0765DAF58DE722AD374CC29 /* Pods-UberLocationSearch.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberLocationSearch.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9EFA4588AB0F48F0B0D35D8EB2E4B89C /* FloatingPanel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FloatingPanel.modulemap; sourceTree = "<group>"; };
+		A411D9EC110B330227C9445607840A3A /* Layout.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Layout.swift; path = Sources/Layout.swift; sourceTree = "<group>"; };
+		B44D669959296AB6276DB661187C88D8 /* Pods-UberLocationSearch-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberLocationSearch-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B728E6BAE525BBC19761AAF868492B03 /* Pods-UberLocationSearch-UberLocationSearchUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UberLocationSearch-UberLocationSearchUITests-frameworks.sh"; sourceTree = "<group>"; };
+		B9EB237BD1E472217BDC869151CFE6BF /* Pods-UberLocationSearchTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberLocationSearchTests.release.xcconfig"; sourceTree = "<group>"; };
+		C16ADC81204BAD0390DF62D0B4F50B12 /* BackdropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BackdropView.swift; path = Sources/BackdropView.swift; sourceTree = "<group>"; };
+		C480A2FA8BD45B847021DF8C8F644E31 /* Pods_UberLocationSearch_UberLocationSearchUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberLocationSearch_UberLocationSearchUITests.framework; path = "Pods-UberLocationSearch-UberLocationSearchUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C500539970DB2D0DBEA35C8A2E8999BD /* Pods-UberLocationSearchTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberLocationSearchTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB672E1F166284E9D8256F5DA5D5D71A /* Pods-UberLocationSearchTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UberLocationSearchTests.modulemap"; sourceTree = "<group>"; };
+		D193C1F05ECD9611A700D98FEAE81D70 /* PassthroughView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PassthroughView.swift; path = Sources/PassthroughView.swift; sourceTree = "<group>"; };
+		D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D2AFF99A866F990489EA4B2FDE683E16 /* Pods_UberLocationSearchTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberLocationSearchTests.framework; path = "Pods-UberLocationSearchTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D85E4387C27AD5A05B48DAE04E7F3ECA /* Pods-UberLocationSearch-UberLocationSearchUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberLocationSearch-UberLocationSearchUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DA0909F39B3B1DBBC78214D404204755 /* Pods-UberLocationSearch-UberLocationSearchUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UberLocationSearch-UberLocationSearchUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6A00ABD3354C04BB8C13EA1776AED2 /* Pods-UberLocationSearchTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberLocationSearchTests-Info.plist"; sourceTree = "<group>"; };
+		E1236EDBC7D7123FC45DF96A9D89B07B /* Transitioning.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Transitioning.swift; path = Sources/Transitioning.swift; sourceTree = "<group>"; };
+		E73693AF132E13DB43E4AD8C03583C70 /* Pods-UberLocationSearchTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberLocationSearchTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		F1C165911E7CC856F2CD49F0D7139A63 /* Pods_UberLocationSearch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_UberLocationSearch.framework; path = "Pods-UberLocationSearch.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4B996BAFD7963EC86F8DA868AECFB0D /* Pods-UberLocationSearch-UberLocationSearchUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberLocationSearch-UberLocationSearchUITests-Info.plist"; sourceTree = "<group>"; };
+		F505CC634F3D419377629C654A3A4C4B /* Pods-UberLocationSearch-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UberLocationSearch-acknowledgements.plist"; sourceTree = "<group>"; };
+		F924CD5A80923690C55272CB0ECCE994 /* Pods-UberLocationSearch-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UberLocationSearch-dummy.m"; sourceTree = "<group>"; };
+		FBAA80A7EFB5DE7FF61AF25051B8D0FB /* Pods-UberLocationSearchTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UberLocationSearchTests-umbrella.h"; sourceTree = "<group>"; };
+		FD6E0880A2F14E36F1E1A1AB91489B34 /* Pods-UberLocationSearch-UberLocationSearchUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UberLocationSearch-UberLocationSearchUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22DCC931BC415DDC7B648571C44E137D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0235661CEC757F944072D480575DA609 /* Foundation.framework in Frameworks */,
+				594272573E6B956E3E06FCA943EFB0BC /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7551CC00B9AE963632302127C3AF0171 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCD266D5B4BE3FCAB0725567579D29F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61EFDD31FBA9A444E5A51C248ECE0E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A24217F05E42AF57A018C8671441F51 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D6C22E4DF2435B5B3238358C6515D428 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				385653B15406A322F6634144E1472A9B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1113C566783333FBC7E7C139AD9FFB98 /* Pods-UberLocationSearch-UberLocationSearchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				410513E180B1C51B438A67FF99D6D9BE /* Pods-UberLocationSearch-UberLocationSearchUITests.modulemap */,
+				FD6E0880A2F14E36F1E1A1AB91489B34 /* Pods-UberLocationSearch-UberLocationSearchUITests-acknowledgements.markdown */,
+				D85E4387C27AD5A05B48DAE04E7F3ECA /* Pods-UberLocationSearch-UberLocationSearchUITests-acknowledgements.plist */,
+				4F3B641A674931E429918A06BAB579DE /* Pods-UberLocationSearch-UberLocationSearchUITests-dummy.m */,
+				B728E6BAE525BBC19761AAF868492B03 /* Pods-UberLocationSearch-UberLocationSearchUITests-frameworks.sh */,
+				F4B996BAFD7963EC86F8DA868AECFB0D /* Pods-UberLocationSearch-UberLocationSearchUITests-Info.plist */,
+				4C7FCF8D3A6A62704B81B94CC5C4A52E /* Pods-UberLocationSearch-UberLocationSearchUITests-umbrella.h */,
+				DA0909F39B3B1DBBC78214D404204755 /* Pods-UberLocationSearch-UberLocationSearchUITests.debug.xcconfig */,
+				4F17DE651C7964795D6309AF5F444385 /* Pods-UberLocationSearch-UberLocationSearchUITests.release.xcconfig */,
+			);
+			name = "Pods-UberLocationSearch-UberLocationSearchUITests";
+			path = "Target Support Files/Pods-UberLocationSearch-UberLocationSearchUITests";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		20309B191B589B934BAA7FDB386627AB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel.framework */,
+				F1C165911E7CC856F2CD49F0D7139A63 /* Pods_UberLocationSearch.framework */,
+				C480A2FA8BD45B847021DF8C8F644E31 /* Pods_UberLocationSearch_UberLocationSearchUITests.framework */,
+				D2AFF99A866F990489EA4B2FDE683E16 /* Pods_UberLocationSearchTests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49DBE480C7570A65502A111FC3BB2D54 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				57F5E2FBA92F16A6D8A8D175BA691D6C /* Pods-UberLocationSearch */,
+				1113C566783333FBC7E7C139AD9FFB98 /* Pods-UberLocationSearch-UberLocationSearchUITests */,
+				8533CC736B3188BC2DE05A42B7F94AA5 /* Pods-UberLocationSearchTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		57F5E2FBA92F16A6D8A8D175BA691D6C /* Pods-UberLocationSearch */ = {
+			isa = PBXGroup;
+			children = (
+				8DF736AFD0765DAF58DE722AD374CC29 /* Pods-UberLocationSearch.modulemap */,
+				B44D669959296AB6276DB661187C88D8 /* Pods-UberLocationSearch-acknowledgements.markdown */,
+				F505CC634F3D419377629C654A3A4C4B /* Pods-UberLocationSearch-acknowledgements.plist */,
+				F924CD5A80923690C55272CB0ECCE994 /* Pods-UberLocationSearch-dummy.m */,
+				896C68431E19D930A9AD428418A8B587 /* Pods-UberLocationSearch-frameworks.sh */,
+				7F24182477F732A24FD160DD03216047 /* Pods-UberLocationSearch-Info.plist */,
+				2BAE07952C059DD01FCD6CE5498ABC4D /* Pods-UberLocationSearch-umbrella.h */,
+				2C7E14B1A97768A7474185868A71A51B /* Pods-UberLocationSearch.debug.xcconfig */,
+				14E25B32F1E0CFCDBB04D5FECB551AD6 /* Pods-UberLocationSearch.release.xcconfig */,
+			);
+			name = "Pods-UberLocationSearch";
+			path = "Target Support Files/Pods-UberLocationSearch";
+			sourceTree = "<group>";
+		};
+		59DA5C1F72E1D5BABC43EACBA672C3BA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				EAB6F611E86A4758835A715E4B4184F6 /* Foundation.framework */,
+				D245E0514AAC1A2B9A6D5EA2F383E90F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64CDC2E208697975339DD804D1A0D02B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A820617E4B9786D43735394447F0334E /* FloatingPanel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8533CC736B3188BC2DE05A42B7F94AA5 /* Pods-UberLocationSearchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CB672E1F166284E9D8256F5DA5D5D71A /* Pods-UberLocationSearchTests.modulemap */,
+				C500539970DB2D0DBEA35C8A2E8999BD /* Pods-UberLocationSearchTests-acknowledgements.markdown */,
+				E73693AF132E13DB43E4AD8C03583C70 /* Pods-UberLocationSearchTests-acknowledgements.plist */,
+				606F069D5468AB7DB83E2043488C58FC /* Pods-UberLocationSearchTests-dummy.m */,
+				DF6A00ABD3354C04BB8C13EA1776AED2 /* Pods-UberLocationSearchTests-Info.plist */,
+				FBAA80A7EFB5DE7FF61AF25051B8D0FB /* Pods-UberLocationSearchTests-umbrella.h */,
+				6B1BF931B433A0E0D806D30565C4698B /* Pods-UberLocationSearchTests.debug.xcconfig */,
+				B9EB237BD1E472217BDC869151CFE6BF /* Pods-UberLocationSearchTests.release.xcconfig */,
+			);
+			name = "Pods-UberLocationSearchTests";
+			path = "Target Support Files/Pods-UberLocationSearchTests";
+			sourceTree = "<group>";
+		};
+		9E992F6DD4C6643F67D2B49D3D882DC8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9EFA4588AB0F48F0B0D35D8EB2E4B89C /* FloatingPanel.modulemap */,
+				7A7B409C12B5468DBBE1DD6B138AEABC /* FloatingPanel-dummy.m */,
+				476A21EE05C5CBF682E7DB4943145CE1 /* FloatingPanel-Info.plist */,
+				4DBBA05090F77159CBB20A45ED5CC277 /* FloatingPanel-prefix.pch */,
+				4AD94CC0DB8AD52AAB70960E45D950F3 /* FloatingPanel-umbrella.h */,
+				247FDE1F68E6D2C16CC67031C39B7892 /* FloatingPanel.debug.xcconfig */,
+				36FEB299AF09F61D8796EFF3418C5C8E /* FloatingPanel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/FloatingPanel";
+			sourceTree = "<group>";
+		};
+		A820617E4B9786D43735394447F0334E /* FloatingPanel */ = {
+			isa = PBXGroup;
+			children = (
+				C16ADC81204BAD0390DF62D0B4F50B12 /* BackdropView.swift */,
+				04A3A7127FF8EACD9CCF85350164C076 /* Behavior.swift */,
+				4E92F6FE9378BFCBC3F28EBE8349BF05 /* Controller.swift */,
+				4FFE017331146938DFBA9773E0F2DAD7 /* Core.swift */,
+				638C8A22D14A26717A42859C3FA67AFC /* Extensions.swift */,
+				4C3D56C6901F4AC17B802728E3181D58 /* GrabberView.swift */,
+				A411D9EC110B330227C9445607840A3A /* Layout.swift */,
+				63EEF2C9C3461C7EEA391FE37374E119 /* LayoutAnchoring.swift */,
+				3278E2993231B4A02C583671399A339A /* LayoutReferences.swift */,
+				2EC45A84AFA80C6A73722718C940CC34 /* Logger.swift */,
+				D193C1F05ECD9611A700D98FEAE81D70 /* PassthroughView.swift */,
+				0969ADC9248A51A3D2D0657F8615115B /* Position.swift */,
+				5A7A772B8D661B10EA355CD7DC6492DD /* State.swift */,
+				6BF356E30B82F13B1E5D5C8639995A67 /* SurfaceView.swift */,
+				E1236EDBC7D7123FC45DF96A9D89B07B /* Transitioning.swift */,
+				9E992F6DD4C6643F67D2B49D3D882DC8 /* Support Files */,
+			);
+			name = FloatingPanel;
+			path = FloatingPanel;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				64CDC2E208697975339DD804D1A0D02B /* Pods */,
+				20309B191B589B934BAA7FDB386627AB /* Products */,
+				49DBE480C7570A65502A111FC3BB2D54 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		210BA41314A439BE59A30D8DF58CF952 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06B6BB317009BE430DA68E268C9721F1 /* Pods-UberLocationSearch-UberLocationSearchUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B61E82DEC7DA0E89EEA6A4B5CA0ADC1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC6E15C159889972758D4DC115CA733C /* Pods-UberLocationSearch-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C8967C2F7B999B0E82F72F8A50344B0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2AE8B96364AB26782B3A6B996618F46 /* FloatingPanel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2975075F09627E67A8FFB58622B66B6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B55579E12BC6F56690B254B47CA0828 /* Pods-UberLocationSearchTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		01702CCE2EC4147081851595E3CC237F /* Pods-UberLocationSearch-UberLocationSearchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A79A29F7777FD29EE4EBA5A7428F8705 /* Build configuration list for PBXNativeTarget "Pods-UberLocationSearch-UberLocationSearchUITests" */;
+			buildPhases = (
+				210BA41314A439BE59A30D8DF58CF952 /* Headers */,
+				1687C8780EE48E3B4CD5F568EE2A4D06 /* Sources */,
+				D6C22E4DF2435B5B3238358C6515D428 /* Frameworks */,
+				63EF213CCC4B03274A05FE8B13CC73EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3D3BAF04C56BDD2133406360A2E38673 /* PBXTargetDependency */,
+			);
+			name = "Pods-UberLocationSearch-UberLocationSearchUITests";
+			productName = "Pods-UberLocationSearch-UberLocationSearchUITests";
+			productReference = C480A2FA8BD45B847021DF8C8F644E31 /* Pods_UberLocationSearch_UberLocationSearchUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4397D94151B4522F47876AC01B002EC5 /* Pods-UberLocationSearchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC4F104F1CEF06BC337404E49C48DF1 /* Build configuration list for PBXNativeTarget "Pods-UberLocationSearchTests" */;
+			buildPhases = (
+				C2975075F09627E67A8FFB58622B66B6 /* Headers */,
+				A1C31E7578F578140F5D7F97BE92028E /* Sources */,
+				C61EFDD31FBA9A444E5A51C248ECE0E9 /* Frameworks */,
+				EDE01305748F230B4B6D687FBF9F2BF7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EAB9654682F9C77B4C4EBD3E21C115E /* PBXTargetDependency */,
+			);
+			name = "Pods-UberLocationSearchTests";
+			productName = "Pods-UberLocationSearchTests";
+			productReference = D2AFF99A866F990489EA4B2FDE683E16 /* Pods_UberLocationSearchTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D16F9348D825E651B6C98B708FA3920B /* Build configuration list for PBXNativeTarget "FloatingPanel" */;
+			buildPhases = (
+				5C8967C2F7B999B0E82F72F8A50344B0 /* Headers */,
+				CE09BDCD5E17BDB74578F528370F2EC6 /* Sources */,
+				22DCC931BC415DDC7B648571C44E137D /* Frameworks */,
+				5F5908D3CFECA0DFDB4FE6DA0BCDC50C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FloatingPanel;
+			productName = FloatingPanel;
+			productReference = 6FAAB7D3DE9B2564509ABD18687E938E /* FloatingPanel.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52E09E2627ACE0B60853F353FBB38CAA /* Pods-UberLocationSearch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C2BAD8E82C3775EAF1AD1E71D28D846 /* Build configuration list for PBXNativeTarget "Pods-UberLocationSearch" */;
+			buildPhases = (
+				2B61E82DEC7DA0E89EEA6A4B5CA0ADC1 /* Headers */,
+				165559215FAB8B132F57412EF866078C /* Sources */,
+				7551CC00B9AE963632302127C3AF0171 /* Frameworks */,
+				0001E56207F7493B15A8D5EB92960C4A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				121720E0A4F283C815C7682499E6C4FF /* PBXTargetDependency */,
+			);
+			name = "Pods-UberLocationSearch";
+			productName = "Pods-UberLocationSearch";
+			productReference = F1C165911E7CC856F2CD49F0D7139A63 /* Pods_UberLocationSearch.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 20309B191B589B934BAA7FDB386627AB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */,
+				52E09E2627ACE0B60853F353FBB38CAA /* Pods-UberLocationSearch */,
+				01702CCE2EC4147081851595E3CC237F /* Pods-UberLocationSearch-UberLocationSearchUITests */,
+				4397D94151B4522F47876AC01B002EC5 /* Pods-UberLocationSearchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0001E56207F7493B15A8D5EB92960C4A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F5908D3CFECA0DFDB4FE6DA0BCDC50C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63EF213CCC4B03274A05FE8B13CC73EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EDE01305748F230B4B6D687FBF9F2BF7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		165559215FAB8B132F57412EF866078C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48BD42DF42D8097CDA5A1D5C64237923 /* Pods-UberLocationSearch-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1687C8780EE48E3B4CD5F568EE2A4D06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5319D549D1C188017CDEF66020596C64 /* Pods-UberLocationSearch-UberLocationSearchUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1C31E7578F578140F5D7F97BE92028E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF2B13A18973FE56EF40B25FCCC2906 /* Pods-UberLocationSearchTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE09BDCD5E17BDB74578F528370F2EC6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				374675ED58E29C2F4BE497CEECFD9C5A /* BackdropView.swift in Sources */,
+				24824D1F8342EF6B11A538FEEA96A0C8 /* Behavior.swift in Sources */,
+				18B6F0B46E1D366C52FCF606F5E27346 /* Controller.swift in Sources */,
+				A9068BB0EFD1284FF8D12B245AC62FD6 /* Core.swift in Sources */,
+				5F2ED51A87D08A8D3F9EEAC6F9B613C6 /* Extensions.swift in Sources */,
+				5BEC5CA8E33A61D2D83A113A57EA8DD7 /* FloatingPanel-dummy.m in Sources */,
+				AC673B5B3649D4D2C612634F34195F22 /* GrabberView.swift in Sources */,
+				66C9CFCCE0ED0D5448F25EECFE7D0863 /* Layout.swift in Sources */,
+				A5A6985EF0A21257C2419A0E82ACD988 /* LayoutAnchoring.swift in Sources */,
+				08410B9ABE321F69F168ADD0D3B5A091 /* LayoutReferences.swift in Sources */,
+				321BB1ACE5DFE681981F737CF3CD4F56 /* Logger.swift in Sources */,
+				5973910AB6449405849068E265FB2582 /* PassthroughView.swift in Sources */,
+				EC4DE63F14B208B100A6256AC3F68255 /* Position.swift in Sources */,
+				450E4A93BA5047608C308BE09B93A089 /* State.swift in Sources */,
+				937CF76437D5F425D4DF0D037568D8E4 /* SurfaceView.swift in Sources */,
+				2C766BEF73FBADA18BFD4A7FCD9A3E5B /* Transitioning.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		121720E0A4F283C815C7682499E6C4FF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloatingPanel;
+			target = 4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */;
+			targetProxy = 5A4CB41B2D13306F7D2D0D7CE436D438 /* PBXContainerItemProxy */;
+		};
+		3D3BAF04C56BDD2133406360A2E38673 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FloatingPanel;
+			target = 4874E7E655CEB4C01E4572AD903AEA21 /* FloatingPanel */;
+			targetProxy = 29E70CD07655792F9FFEA8CFA3068D1C /* PBXContainerItemProxy */;
+		};
+		6EAB9654682F9C77B4C4EBD3E21C115E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UberLocationSearch";
+			target = 52E09E2627ACE0B60853F353FBB38CAA /* Pods-UberLocationSearch */;
+			targetProxy = FD355479611C36AE429B0380CE89F054 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		187B668D3E63E5BA56A9F87F7D9C65DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B1BF931B433A0E0D806D30565C4698B /* Pods-UberLocationSearchTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberLocationSearchTests/Pods-UberLocationSearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberLocationSearchTests/Pods-UberLocationSearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		46B7FB63CDAF83BC20B965F453E83F75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA0909F39B3B1DBBC78214D404204755 /* Pods-UberLocationSearch-UberLocationSearchUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberLocationSearch-UberLocationSearchUITests/Pods-UberLocationSearch-UberLocationSearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberLocationSearch-UberLocationSearchUITests/Pods-UberLocationSearch-UberLocationSearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6DD7E27FEB1BF46E8EDEF1F767AB8EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EB237BD1E472217BDC869151CFE6BF /* Pods-UberLocationSearchTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberLocationSearchTests/Pods-UberLocationSearchTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberLocationSearchTests/Pods-UberLocationSearchTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A345566F195E780A5CF4C5696AD1DA35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F17DE651C7964795D6309AF5F444385 /* Pods-UberLocationSearch-UberLocationSearchUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberLocationSearch-UberLocationSearchUITests/Pods-UberLocationSearch-UberLocationSearchUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberLocationSearch-UberLocationSearchUITests/Pods-UberLocationSearch-UberLocationSearchUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AEF0CA9783EAE1C30A3B2CEE87C418E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14E25B32F1E0CFCDBB04D5FECB551AD6 /* Pods-UberLocationSearch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C12F60DAC14B47F38A4F793409AE0890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C7E14B1A97768A7474185868A71A51B /* Pods-UberLocationSearch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UberLocationSearch/Pods-UberLocationSearch.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD930234F9947514E16C28226C5B562E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 247FDE1F68E6D2C16CC67031C39B7892 /* FloatingPanel.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingPanel/FloatingPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingPanel/FloatingPanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FloatingPanel/FloatingPanel.modulemap";
+				PRODUCT_MODULE_NAME = FloatingPanel;
+				PRODUCT_NAME = FloatingPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE578F332095A23B7B56EC864C55C897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36FEB299AF09F61D8796EFF3418C5C8E /* FloatingPanel.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FloatingPanel/FloatingPanel-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FloatingPanel/FloatingPanel-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/FloatingPanel/FloatingPanel.modulemap";
+				PRODUCT_MODULE_NAME = FloatingPanel;
+				PRODUCT_NAME = FloatingPanel;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.3;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C2BAD8E82C3775EAF1AD1E71D28D846 /* Build configuration list for PBXNativeTarget "Pods-UberLocationSearch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C12F60DAC14B47F38A4F793409AE0890 /* Debug */,
+				AEF0CA9783EAE1C30A3B2CEE87C418E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A79A29F7777FD29EE4EBA5A7428F8705 /* Build configuration list for PBXNativeTarget "Pods-UberLocationSearch-UberLocationSearchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46B7FB63CDAF83BC20B965F453E83F75 /* Debug */,
+				A345566F195E780A5CF4C5696AD1DA35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D16F9348D825E651B6C98B708FA3920B /* Build configuration list for PBXNativeTarget "FloatingPanel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD930234F9947514E16C28226C5B562E /* Debug */,
+				CE578F332095A23B7B56EC864C55C897 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC4F104F1CEF06BC337404E49C48DF1 /* Build configuration list for PBXNativeTarget "Pods-UberLocationSearchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187B668D3E63E5BA56A9F87F7D9C65DB /* Debug */,
+				6DD7E27FEB1BF46E8EDEF1F767AB8EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

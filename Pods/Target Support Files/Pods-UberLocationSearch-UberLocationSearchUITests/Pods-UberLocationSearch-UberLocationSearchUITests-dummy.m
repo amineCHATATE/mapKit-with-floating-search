@@ -1,0 +1,5 @@
+#import <Foundation/Foundation.h>
+@interface PodsDummy_Pods_UberLocationSearch_UberLocationSearchUITests : NSObject
+@end
+@implementation PodsDummy_Pods_UberLocationSearch_UberLocationSearchUITests
+@end
